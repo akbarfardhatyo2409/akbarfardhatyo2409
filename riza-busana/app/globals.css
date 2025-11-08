@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #F9E8C9;
+  --gold: #C9A24F;
+  --black: #000000;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-gold: var(--gold);
+  --color-black: var(--black);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
